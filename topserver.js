@@ -8,12 +8,12 @@ const bot = mineflayer.createBot({
 })
 
 bot.on("message", jsonMsg => {
-	if(`${jsonMsg}`.includes("register") ===  true)
-		bot.chat("/register 123qwe 123qwe")
-	if(`${jsonMsg}`.includes("login") ===  true)
-		bot.chat("/login 123qwe")
-	if(`${jsonMsg}`.includes("In order to use this command you must be authenticated!") ===  true)
-		bot.chat("/login 123qwe")
+  if(`${jsonMsg}`.includes("register") ===  true)
+    bot.chat("/register 123qwe 123qwe")
+  if(`${jsonMsg}`.includes("login") ===  true)
+    bot.chat("/login 123qwe")
+  if(`${jsonMsg}`.includes("In order to use this command you must be authenticated!") ===  true)
+    bot.chat("/login 123qwe")
 })
 
 bot.on("message", jsonMsg => {
@@ -31,7 +31,6 @@ bot.on("message", jsonMsg => {
   if (`${jsonMsg}`.includes("НАШ САЙТ:") === true)
     setTimeout(() => bot.chat("/bc НАШ САЙТ: https://tinyurl.com/topserversite"), 60000);
 })
-do{
-	setTimeout(() => bot.chat("/tp ~ ~10 ~"), 10000);
+while (condition) {
+  setTimeout(() => bot.chat("/tp ~ ~10 ~"), 10000);
 }
-while (condition)
