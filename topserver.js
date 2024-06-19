@@ -25,6 +25,8 @@ bot.on("message", jsonMsg => {
 bot.on("message", jsonMsg => {
   if (`${jsonMsg}`.includes("НАШ АЙПИ:") === true)
     setTimeout(() => bot.chat("/bc НАШ АЙПИ: topserver1337228.aternos.me"), 120000);
+    setTimeout(() => bot.chat("/tp ~ ~3 ~"), 1000);
+    setTimeout(() => bot.chat("/tp ~ ~-3 ~"), 2000);
 })
 
 bot.on("message", jsonMsg => {
