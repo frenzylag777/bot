@@ -25,15 +25,15 @@ bot.on("message", jsonMsg => {
 bot.on("message", jsonMsg => {
   if (`${jsonMsg}`.includes("НАШ АЙПИ:") === true)
     setTimeout(() => bot.chat("/bc НАШ АЙПИ: topserver1337228.aternos.me"), 120000);
-    setTimeout(() => bot.chat("/tp ~ ~3 ~"), 1000);
-    setTimeout(() => bot.chat("/tp ~ ~-3 ~"), 2000);
+    setTimeout(() => bot.chat("/tp ~ ~10 ~"), 1000);
+    setTimeout(() => bot.chat("/tp ~ ~-10 ~"), 2000);
 })
 
 bot.on("message", jsonMsg => {
   if (`${jsonMsg}`.includes("НАШ САЙТ:") === true)
     setTimeout(() => bot.chat("/bc НАШ САЙТ: https://tinyurl.com/topserversite"), 60000);
-    setTimeout(() => bot.chat("/tp ~ ~3 ~"), 1000);
-    setTimeout(() => bot.chat("/tp ~ ~-3 ~"), 2000);
+    setTimeout(() => bot.chat("/tp ~ ~10 ~"), 1000);
+    setTimeout(() => bot.chat("/tp ~ ~-10 ~"), 2000);
 })
 
 bot.on("message", jsonMsg => {
