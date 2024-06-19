@@ -31,6 +31,4 @@ bot.on("message", jsonMsg => {
   if (`${jsonMsg}`.includes("НАШ САЙТ:") === true)
     setTimeout(() => bot.chat("/bc НАШ САЙТ: https://tinyurl.com/topserversite"), 60000);
 })
-while (true) {
-  setTimeout(() => bot.chat("/tp ~ ~10 ~"), 10000);
-}
+setTimeout(() => bot.chat("/tp ~ ~10 ~"), 10000);
