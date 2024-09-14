@@ -7,6 +7,10 @@ const bot = mineflayer.createBot({
   version: "1.12.2"
 })
 
+bot.once("spawn" => {
+  bot.chat("НАШ АЙПИ: НАШ САЙТ:")
+})
+
 bot.on("message", jsonMsg => {
   if(`${jsonMsg}`.includes("register") ===  true)
     bot.chat("/register 123qwe 123qwe")
