@@ -7,7 +7,7 @@ const bot = mineflayer.createBot({
   version: "1.12.2"
 })
 
-bot.once("spawn", function() => {
+bot.once("spawn", function() {
   bot.chat("НАШ АЙПИ: НАШ САЙТ:")
 })
 
